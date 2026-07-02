@@ -29,18 +29,38 @@ Verileriniz **kendi bilgisayarınızda** (yerel veritabanı) saklanır — bulut
 
 ## 📷 Ekran Görüntüleri
 
-<!-- EKRAN GÖRÜNTÜLERİ BURAYA EKLENECEK -->
-<!--
 <div align="center">
-  <img src="docs/screenshots/dashboard.png" alt="BKYS Dashboard — kırım takibi ve KPI'lar" width="800"><br><br>
-  <img src="docs/screenshots/numune-listesi.png" alt="BKYS Numune listesi ve filtreleme" width="800"><br><br>
-  <img src="docs/screenshots/karsilastirma.png" alt="BKYS Numune karşılaştırma" width="800"><br><br>
-  <img src="docs/screenshots/kalibrasyon.png" alt="BKYS Cihaz kalibrasyon takibi" width="800"><br><br>
-  <img src="docs/screenshots/pdf-rapor.png" alt="BKYS PDF rapor çıktısı" width="800">
-</div>
--->
 
-> 📸 *Ekran görüntüleri yakında eklenecek.*
+<img src="docs/screenshots/01-dashboard.png" alt="BKYS Dashboard — bugünkü, yaklaşan ve geciken beton kırımları, KPI'lar ve kalibrasyon durumu" width="850">
+
+<em>Dashboard — bugünkü / yaklaşan / geciken kırımlar, KPI'lar ve kalibrasyon durumu tek ekranda.</em>
+
+</div>
+
+<br>
+
+| Numune Listesi | Numune Detayı |
+|:---:|:---:|
+| <img src="docs/screenshots/02-numune-listesi.png" alt="BKYS beton numune listesi — 3/7/28 günlük kırım ilerlemesi ve durum rozetleri" width="420"> | <img src="docs/screenshots/03-numune-detay-kirim-sonuclari.png" alt="BKYS numune detayı — kırım test sonuçları ve malzeme reçetesi" width="420"> |
+| Her numunede kırım ilerlemesi ve durum rozetleri. | Kırım sonuçları (dayanım/kütle) ve malzeme reçetesi. |
+
+| Yeni Numune Ekleme | Düzeltmeli Miktar Hesabı |
+|:---:|:---:|
+| <img src="docs/screenshots/04-yeni-numune-ekle.png" alt="BKYS yeni beton numunesi ekleme formu — otomatik kırım tarihleri" width="420"> | <img src="docs/screenshots/05-duzeltmeli-miktar-hesabi.png" alt="BKYS düzeltmeli miktar hesabı — santral düzeltmesine göre m³ başına gerçek malzeme miktarı" width="420"> |
+| Kimlik, plaka, yetkili, reçete ve otomatik kırım tarihleri. | Santral düzeltmesine göre m³ başına gerçek miktar (Excel'de yok!). |
+
+| Cihaz / Kalibrasyon Takibi | Telegram Bildirimleri |
+|:---:|:---:|
+| <img src="docs/screenshots/06-cihaz-kalibrasyon-takibi.png" alt="BKYS cihaz ve kalibrasyon takibi — kalibrasyon geçmişi ve yaklaşan kalibrasyon uyarısı" width="420"> | <img src="docs/screenshots/07-telegram-bildirimleri.png" alt="BKYS Telegram bildirimleri — yaklaşan ve gecikmiş kırım, kalibrasyon uyarıları" width="420"> |
+| Kalibrasyon geçmişi ve yaklaşan kalibrasyon uyarısı. | Yaklaşan/gecikmiş kırım ve kalibrasyon uyarıları telefonunuza. |
+
+<div align="center">
+
+<img src="docs/screenshots/08-otomatik-yedekleme.png" alt="BKYS otomatik veri yedekleme — zamanlanmış yedek ve tek tıkla geri yükleme" width="850">
+
+<em>Otomatik yedekleme — zamanlanmış yedek, güncelleme öncesi güvenlik yedeği ve tek tıkla geri yükleme.</em>
+
+</div>
 
 ---
 
