@@ -2,11 +2,16 @@
 
 # 🧱 BKYS — Beton Kalite Yönetim Sistemi
 
-**Laboratuvarınızın numune, kırım ve kalibrasyon süreçlerini tek bir masaüstü uygulamasında yönetin.**
+### Hazır beton santralleri ve yapı laboratuvarları için tasarlanmış, Excel karmaşasına son veren masaüstü kalite yönetim yazılımı.
 
-![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-0078D6?logo=windows)
-![Sürüm](https://img.shields.io/badge/Sürüm-1.4.0-2ea44f)
-![Mimari](https://img.shields.io/badge/Mimari-64--bit-lightgrey)
+Numune kaydı · 3/7/14/28 günlük kırım planı · reçete yönetimi · cari ve yapı denetim takibi · cihaz kalibrasyonu · otomatik hatırlatmalar · tek tıkla PDF rapor.
+
+[![Sürüm](https://img.shields.io/github/v/release/farklibeyinler/BKYS-SETUP?label=s%C3%BCr%C3%BCm&color=2563eb)](https://github.com/farklibeyinler/BKYS-SETUP/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D6)](#-sistem-gereksinimleri)
+[![İndirme](https://img.shields.io/github/downloads/farklibeyinler/BKYS-SETUP/total?label=indirme&color=16a34a)](https://github.com/farklibeyinler/BKYS-SETUP/releases/latest)
+[![Lisans](https://img.shields.io/badge/lisans-Ticari-orange)](#-lisans-ve-fiyatland%C4%B1rma)
+
+### [⬇️ En Son Sürümü İndir](https://github.com/farklibeyinler/BKYS-SETUP/releases/latest)
 
 </div>
 
@@ -14,110 +19,124 @@
 
 ## 📌 BKYS Nedir?
 
-**BKYS (Beton Kalite Yönetim Sistemi)**, beton numune laboratuvarları için geliştirilmiş bir **Windows masaüstü uygulamasıdır**. Numune kabulünden basınç dayanımı sonuçlarına, müşteri takibinden cihaz kalibrasyonlarına kadar laboratuvarın günlük iş akışını dijitalleştirir.
+**BKYS (Beton Kalite Yönetim Sistemi)**, hazır beton üreticilerinin ve yapı malzemesi laboratuvarlarının günlük kalite kontrol işlerini tek bir programda toplayan bir **Windows masaüstü uygulamasıdır**. Beton numunelerinin alınmasından kırım tarihlerinin hatırlatılmasına, reçete takibinden cihaz kalibrasyonuna kadar tüm süreç TS EN 206 mantığına uygun biçimde yönetilir.
 
-Tüm verileriniz **kendi bilgisayarınızda** yerel olarak saklanır — internet bağlantısı gerektirmeden, güvenli bir şekilde çalışır.
+Verileriniz **kendi bilgisayarınızda** (yerel veritabanı) saklanır — buluta bağımlılık yok, aylık abonelik yok, internet olmadan da çalışır.
 
----
-
-## ✨ Öne Çıkan Özellikler
-
-### 🔬 Numune & Kırım Takibi
-- Numune kaydı: lab kayıt no, döküm tarihi, beton sınıfı, müşteri bilgileri
-- **3 / 7 / 14 / 28 günlük** basınç dayanımı (kırım) sonuçlarının takibi
-- Çoklu küp ortalaması ve 7/28 gün oranı hesaplama
-- Numune karşılaştırma ve PDF karşılaştırma raporları
-
-### 👥 Cari & Firma Yönetimi
-- Müşteri (cari) kayıtları ve yapı adresleri
-- Yapı denetim ve laboratuvar firmaları ile çalışan takibi
-
-### 🛠️ Cihaz & Kalibrasyon Takibi
-- Laboratuvar cihazlarının kalibrasyon geçmişi
-- **Süresi yaklaşan / geçmiş** kalibrasyonlar için otomatik uyarı
-- Kalibrasyon sertifikalarını uygulama içinde saklama ve paylaşma
-
-### 📊 Panel & Raporlama
-- Özet gösterge paneli (dashboard) ile güncel durumu tek bakışta görün
-- Profesyonel PDF rapor çıktıları
-
-### 🔔 Telegram Bildirimleri
-- Günlük kırım hatırlatmaları
-- Yaklaşan / geciken numune ve kalibrasyon bildirimleri
-
-### 💾 Güvenlik & Yedekleme
-- Otomatik ve elle veri yedekleme
-- Verileriniz tamamen yerel — bulut zorunluluğu yok
+> **Kısaca:** Dağınık Excel dosyaları, unutulan kırım tarihleri ve elle hesaplarla uğraşmayı bırakın.
 
 ---
 
-## 💻 Sistem Gereksinimleri
+## 📷 Ekran Görüntüleri
 
-| Gereksinim | Detay |
-|------------|-------|
-| İşletim Sistemi | Windows 10 veya Windows 11 |
-| Mimari | 64-bit (x64) |
-| Disk Alanı | ~250 MB boş alan |
-| Bağlantı | Kurulum için internet; kullanım için gerekli değil |
+<!-- EKRAN GÖRÜNTÜLERİ BURAYA EKLENECEK -->
+<!--
+<div align="center">
+  <img src="docs/screenshots/dashboard.png" alt="BKYS Dashboard — kırım takibi ve KPI'lar" width="800"><br><br>
+  <img src="docs/screenshots/numune-listesi.png" alt="BKYS Numune listesi ve filtreleme" width="800"><br><br>
+  <img src="docs/screenshots/karsilastirma.png" alt="BKYS Numune karşılaştırma" width="800"><br><br>
+  <img src="docs/screenshots/kalibrasyon.png" alt="BKYS Cihaz kalibrasyon takibi" width="800"><br><br>
+  <img src="docs/screenshots/pdf-rapor.png" alt="BKYS PDF rapor çıktısı" width="800">
+</div>
+-->
+
+> 📸 *Ekran görüntüleri yakında eklenecek.*
+
+---
+
+## ⭐ Neden BKYS? (Excel yerine)
+
+Çoğu beton firması kalite kayıtlarını Excel makrolarıyla tutar. Excel esnektir ama büyüdükçe **formüller bozulur, tarihler unutulur, veri kaybolur ve raporlama zaman alır.** BKYS bu işi yapılandırılmış, hatasız ve hatırlatmalı hâle getirir:
+
+| İhtiyaç / Özellik | 📄 Excel | 🧱 BKYS |
+|---|:---:|:---:|
+| Numune kaydı | Manuel satır, kopyala-yapıştır | ✅ Yapılandırılmış, doğrulamalı form |
+| Kırım tarihleri (3/7/14/28 gün) | Elle hesap, **unutma riski** | ✅ Otomatik hesap |
+| Kırım hatırlatma / bildirim | ❌ Yok | ✅ Telegram + uygulama içi bildirim |
+| Reçete yönetimi | Dağınık sayfalar | ✅ Merkezi reçete kataloğu |
+| Düzeltmeli miktar hesabı (± santral düzeltmesi) | Elle formül | ✅ Dahili hesap makinesi |
+| Malzeme kategorileri & malzeme bazlı arama | Sınırlı | ✅ Kategorili, güçlü arama |
+| Cari / yapı denetim takibi | Ayrı ayrı dosyalar | ✅ Entegre modüller |
+| Cihaz kalibrasyon takibi | ❌ Yok / ayrı liste | ✅ Süre takibi + yaklaşan uyarısı |
+| Numune karşılaştırma | Elle uğraş | ✅ Yan yana karşılaştırma + PDF |
+| Raporlama / PDF | Elle biçimlendirme | ✅ Tek tıkla profesyonel PDF |
+| Veri güvenliği / yedekleme | Dosya kaybı riski | ✅ Otomatik + güncelleme öncesi yedek |
+| Çok kişi kullanınca hata | Yüksek (formül bozulur) | ✅ Düşük (yapılandırılmış veri) |
+| Güncelleme bildirimi | ❌ Yok | ✅ Yeni sürüm otomatik bildirilir |
+
+---
+
+## 🚀 Öne Çıkan Özellikler
+
+- **📊 Dashboard & KPI Takibi** — Bugün kırılacak, yaklaşan ve geciken numuneler tek ekranda.
+- **🧪 Beton Numune Yönetimi** — TS EN 206 mantığıyla numune kaydı, çoklu küp ortalaması.
+- **📅 3/7/14/28 Günlük Kırım Planı** — Döküm tarihinden otomatik plan; hiçbir kırımı kaçırmayın.
+- **📈 Numune Karşılaştırma** — Birden çok numuneyi yan yana kıyaslayın, PDF alın.
+- **📐 Reçete Yönetimi & Malzeme Kategorileri** — Kayıtlı reçeteler, çimento/katkı/agrega/su kategorileri.
+- **➗ Düzeltmeli Miktar Hesabı** — Santral düzeltmesine göre (± olabilir) m³ başına gerçek miktar.
+- **🔍 Malzeme Bazlı Arama & Filtreleme** — Cari, tarih, malzeme adına göre hızlı erişim.
+- **🏢 Cari & Yapı Denetim Yönetimi** — Müşteri, şantiye adresi ve yapı denetim kayıtları.
+- **🔧 Cihaz / Kalibrasyon Takibi** — Kalibrasyon süreleri, yaklaşan kalibrasyon uyarıları.
+- **🚚 Araç Plaka Takibi** — Numuneye bağlı transmikser plakaları.
+- **🔔 Telegram Bildirimleri** — Günün kırımları ve gecikmeler telefonunuza.
+- **🖨️ PDF Yazdırma** — Profesyonel numune ve karşılaştırma raporları.
+- **💾 Otomatik Yedekleme** — Zamanlanmış yedek + güncelleme öncesi güvenlik yedeği.
+- **🔄 Otomatik Güncelleme Bildirimi** — Yeni sürüm çıkınca uygulama sizi uyarır.
+
+---
+
+## 👥 Kimler İçin?
+
+- Hazır beton santralleri ve şantiye laboratuvarları
+- Yapı malzemesi test laboratuvarları
+- Kalite kontrol ve kalibrasyon sorumluları
+- Beton numune kırım süreçlerini takip eden mühendisler
 
 ---
 
 ## ⬇️ Kurulum
 
-1. **Aşağıdaki bağlantıdan kurulum dosyasını indirin:**
+1. [**En son sürümü indirin**](https://github.com/farklibeyinler/BKYS-SETUP/releases/latest) (`BKYS Setup x.x.x.exe`).
+2. İndirilen `.exe` dosyasını çalıştırın ve kurulum adımlarını izleyin.
+3. Uygulama ilk açıldığında **Makine Kodunuz** oluşturulur; lisans için bu kodu bize iletin.
+4. Size özel lisans dosyasını (`.lic`) **Ayarlar → Lisans** bölümünden yükleyin — hazırsınız.
 
-   ### 👉 [BKYS Setup 1.4.0.exe İndir](https://github.com/farklibeyinler/BKYS-SETUP/raw/main/BKYS%20Setup%201.4.0.exe)
-
-2. İndirdiğiniz **`BKYS Setup 1.4.0.exe`** dosyasına çift tıklayın.
-
-3. Windows SmartScreen uyarısı çıkarsa **"Ek bilgi" → "Yine de çalıştır"** deyin.
-
-4. Kurulum sihirbazında dilerseniz kurulum klasörünü değiştirin ve **İleri** ile devam edin.
-
-5. Kurulum tamamlandığında masaüstü ve başlat menüsü kısayolları otomatik oluşturulur. 🎉
+> 💡 Yeni sürümler çıktığında uygulama sizi otomatik bilgilendirir; güncellemeyi buradan indirip üzerine kurmanız yeterlidir. **Verileriniz korunur** (güncelleme öncesi otomatik yedek alınır).
 
 ---
 
-## 🔑 İlk Çalıştırma ve Lisans
+## 💻 Sistem Gereksinimleri
 
-BKYS **lisanslı** bir yazılımdır. Uygulamayı ilk açtığınızda bir lisans anahtarı girmeniz istenir.
-
-Lisans temini ve etkinleştirme için lütfen **[İletişim](#-iletişim--destek)** bölümündeki kanallardan bize ulaşın.
-
----
-
-## 🔄 Güncellemeler
-
-Yeni sürümler bu depoda yayınlanır. Güncel sürümü indirip mevcut kurulumun üzerine kurmanız yeterlidir — **verileriniz korunur**.
+| | |
+|---|---|
+| **İşletim Sistemi** | Windows 10 / 11 (64-bit) |
+| **Disk** | ~250 MB boş alan |
+| **İnternet** | Yalnızca lisanslama, güncelleme ve (isteğe bağlı) Telegram bildirimleri için |
+| **Veritabanı** | Yerel SQLite — verileriniz kendi bilgisayarınızda |
 
 ---
 
-## ❓ Sıkça Sorulan Sorular
+## 🔐 Lisans ve Fiyatlandırma
 
-**Verilerim nerede saklanıyor?**
-Tüm veriler bilgisayarınızda yerel olarak tutulur. Düzenli yedek almanız önerilir (uygulama içi otomatik yedekleme mevcuttur).
+BKYS ticari bir yazılımdır ve makineye bağlı lisans (`.lic`) ile çalışır. **Demo, Standart ve Ömür Boyu** lisans seçenekleri mevcuttur. Lisans ve fiyat bilgisi için iletişime geçin.
 
-**İnternet gerekiyor mu?**
-Kurulum ve lisans etkinleştirme dışında internet gerekmez. Telegram bildirimleri için ise bağlantı gereklidir.
-
-**Mac / Linux sürümü var mı?**
-Şu an yalnızca Windows 64-bit desteklenmektedir.
+Kişisel verilerin korunması (KVKK) ve son kullanıcı lisans sözleşmesi (EULA) metinleri uygulama içinde **Ayarlar → Yasal** bölümünde yer alır.
 
 ---
 
 ## 📞 İletişim & Destek
 
-Kurulum, lisans veya kullanım desteği için:
+| | |
+|---|---|
+| **Osman Soylu** | 📱 0544 968 19 83 |
 
-- 🐛 Hata bildirimi ve öneriler: bu deponun **Issues** sekmesi
-- ✉️ İletişim: proje sorumlusu ile iletişime geçin
+Lisans talebi, demo isteği ve teknik destek için yukarıdaki numaradan ulaşabilirsiniz.
 
 ---
 
 <div align="center">
 
-**BKYS — Beton Kalite Yönetim Sistemi**
-
-*Bu depo yalnızca kurulum paketini ve kullanım bilgilerini içerir. Uygulamanın kaynak kodu özeldir ve paylaşılmamaktadır.*
+**BKYS** · Beton Kalite Yönetim Sistemi · Windows Masaüstü Uygulaması
+© 2026 · Tüm hakları saklıdır.
 
 </div>
